@@ -1,7 +1,25 @@
 body{
-    background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+    display: block;
+    background-image: url(./Images/Bumstead.webp);
     background-size: cover;
-    background-attachment: fixed;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 100%;
-  }
+    opacity: 0.6;
+    background-repeat: repeat-x;
+}
+
+#navigationContainer{
+    height: 85%;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.mainHead{
+    align-content: center;
+}
+
+
+/*.subHead{
+font-style: italic;
+display: flex;
+justify-content: right;
+}*/
